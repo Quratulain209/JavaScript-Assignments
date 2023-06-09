@@ -71,6 +71,21 @@
 // currentDate.setHours(hours + 1);
 // alert("Current Date : "+currentDate+" 1 hour ago, it was  " + currentDate);
 
+// // 12) 
+// var currentDate = new Date();
+// var currentYear = currentDate.getFullYear();
+// currentDate.setFullYear(currentYear - 100);
+// alert("Date reset to 100 years back: " + currentDate);
+
+
+// // 13) Calculate Age
+// function CalculateAge(current, DOB){
+//     var age = current - DOB
+//     alert("Your Age is: "+Math.floor(age/(1000*60*60*24*365)))
+// }
+// var current = new Date();
+// var DOB = new Date(prompt("Enter Your Age: ",'Jan 1,2002'))
+// CalculateAge(current,DOB);
 
 // // 13) calculate age
 // function CalculateAge(current, DOB){
