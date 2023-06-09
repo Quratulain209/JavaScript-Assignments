@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-16</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <a href="" onclick="msg()">Github</a>
+
+    <!-- 2) mobile alert -->
+    <div class="m-5 p-5">
+        <img src="https://images.priceoye.pk/oppo-a54-activated-pakistan-priceoye-k56sl.jpg" width="200px"
+            onclick="mobile()" class="rounded " alt="...">
+
+        <img src="https://www.pakmobizone.pk/wp-content/uploads/2022/12/Apple-iPhone-14-Pro-Max-Gold-4.jpg"
+            width="170px" onclick="mobile()" class="rounded " alt="...">
+
+        <img src="https://images.priceoye.pk/samsung-galaxy-z-fold4-pakistan-priceoye-xts5g.jpg" width="200px"
+            onclick="mobile()" class="rounded " alt="...">
+
+        <img src="https://g-mart.pk/wp-content/uploads/Vivo-Y78-Plus-1-438x593.jpg" width="170px" onclick="mobile()"
+            class="rounded " alt="...">
+
+        <!-- 3)Delete student record table -->
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>class</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Ali</td>
+                <td>1</td>
+                <td><button onclick="deleteRecord(this)" id="dlt">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sania</td>
+                <td>5</td>
+                <td><button onclick="deleteRecord(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alina</td>
+                <td>7</td>
+                <td><button onclick="deleteRecord(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Anikat</td>
+                <td>10</td>
+                <td><button onclick="deleteRecord(this)">Delete</button></td>
+            </tr>
+        </table>
+
+        <!-- 4) Change the picture on mouseover  -->
+        <img src="https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-320-80.jpg"
+            onMouseover="src='https://www.freeiconspng.com/thumbs/bulb-off-icon/bulb-off-icon-14.jpg'"
+            onMouseout="src='https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-320-80.jpg'" width="200px">
+
+        <!-- 5) Value increase decrease -->
+       <div>
+        <h1 id="count" >0</h1>
+        <button onclick="Increase('+') , main()">+</button>
+        <button onclick="Decrease()">-</button>
+       </div>
+
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
